@@ -32,10 +32,10 @@ app.get("/", async (req, res) => {
 });
 mongoose
   .connect(MONGO_URI)
-  .then((res) => console.log("Data base connected"))
+  .then((res) => console.log("Data Base Connected ! 👌👌👌 "))
   .catch((err) => console.log(err.message));
 app.listen(PORT, () => {
-  console.log(`Backend server running at port ${PORT}`);
+  console.log(`Backend Server Running 👌👌👌 at port : ${PORT}`);
 });
 
 //comment
